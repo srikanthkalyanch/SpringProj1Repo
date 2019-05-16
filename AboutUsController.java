@@ -10,7 +10,7 @@ public class AboutUsController extends AbstractController {
 
 	@Override
 	public ModelAndView handleRequestInternal(HttpServletRequest arg0, HttpServletResponse arg1) throws Exception {
-		
+		System.out.println("AboutUsController");
 		return new ModelAndView("AboutUs");
 	}
 
